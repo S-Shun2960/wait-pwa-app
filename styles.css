@@ -9,7 +9,7 @@ body, html {
 }
 
 element.style{
-  width: 100%; 
+  font-size: 6vmax; 
 }
 
 .start-button{
