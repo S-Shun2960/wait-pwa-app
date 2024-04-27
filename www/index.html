@@ -1,26 +1,16 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="cordova.js"></script>
-    <script src="components/loader.js"></script>
-    <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <center>
-      <div class="container">
-        <div class="bubble" style="width: 10px; height: 10px; top: 80%; left: 10%;"></div>
-        <div class="bubble" style="width: 20px; height: 20px; top: 50%; left: 20%;"></div>
-        <div class="bubble" style="width: 15px; height: 15px; top: 70%; left: 30%;"></div>
-      </div>
-      
-	    <h1>Wait</h1>
-        <p>The simple game</p>
+	<h1>Wait</h1>
+        <h3>The simple game</h3>
         <button onclick="window.location.replace('game.html')" class="start-button">Start</button>
-        <h3 id="highscore"></h3>
+        <p id="highscore"></p>
     </center>
     
     <script>
