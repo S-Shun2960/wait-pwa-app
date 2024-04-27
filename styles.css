@@ -23,6 +23,7 @@ body, html {
 
 button{
   background-color: #00ffFF;
+  border: 3px solid #000;
 }
 
 button:hover{
