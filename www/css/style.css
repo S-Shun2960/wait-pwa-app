@@ -1,0 +1,31 @@
+/**/
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: skyblue;
+}
+
+.start-button{
+  width: 100px;
+  height: 40px;
+  font-size: 25px;    
+}
+
+.count{
+  display: grid;
+  place-items: center;
+  height: 70vh;
+  font-size: 50px;
+}
+
+button{
+  background-color: #00ffFF;
+}
+
+button:hover{
+  background-color: turquoise;
+}
+
+.start-button{
+  width: 100px;
+  height: 40px;
+}
